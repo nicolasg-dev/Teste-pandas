@@ -6,7 +6,7 @@ Para instalar o pandas:
 
 python -m pip install pandas
 
-### Instalar o Python
+# Instalar o Python
 
 ## Windows
 
@@ -14,7 +14,7 @@ https://www.python.org/downloads/
 Baixe a última versão no site oficial e siga os procedimentos.
 
 
-# Ubuntu / Debian / Linux Mint
+## Ubuntu / Debian / Linux Mint
 
 Abra o seu terminal (`Ctrl + Alt + T`) e digite os seguintes comandos:
 
@@ -23,12 +23,12 @@ sudo apt update
 sudo apt install python3 python3-pip -y
 
 
-### No Fedora
+## No Fedora
 
 sudo dnf install python3 python3-pip
 
 
-### No Arch Linux / Manjaro
+## No Arch Linux / Manjaro
 
 sudo pacman -S python python-pip
 

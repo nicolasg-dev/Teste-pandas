@@ -12,7 +12,7 @@ https://www.python.org/downloads/
 Baixe a última versão no site oficial e siga os procedimentos.
 
 
-### Ubuntu / Debian / Linux Mint
+# Ubuntu / Debian / Linux Mint
 
 Abra o seu terminal (`Ctrl + Alt + T`) e digite os seguintes comandos:
 

@@ -6,7 +6,9 @@ Para instalar o pandas:
 
 python -m pip install pandas
 
-### Windows
+### Instalar o Python
+
+## Windows
 
 https://www.python.org/downloads/
 Baixe a última versão no site oficial e siga os procedimentos.

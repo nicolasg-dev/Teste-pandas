@@ -2,9 +2,6 @@
 
 Para rodar você precisa ter a biblioteca Pandas instalada no seu computador e também o python.
 
-Para instalar o pandas:
-
-python -m pip install pandas
 
 # Instalar o Python
 
@@ -36,3 +33,22 @@ sudo pacman -S python python-pip
 Para verificar se a instalação ocorreu com sucesso no seu Linux, digite no terminal:
 
 python3 --version
+
+# Instalar o Pandas
+
+## Windows
+
+python -m pip install pandas
+
+## Ubuntu / Debian / Linux Mint
+
+sudo apt update
+sudo apt install python3-pip
+
+pip3 install pandas
+
+## No Arch Linux / Manjaro
+
+pip install pandas
+
+

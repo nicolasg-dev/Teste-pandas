@@ -4,20 +4,30 @@ print("\n")
 
 df = pd.read_excel("Table.xlsx")
 
+def atualiza(df):
+    #Atualizando uma nova coluna com a porcentagem de peças ruins
+    df["Ruins (%)"] = df['Com defeito'] / df['Total Previsto'] * 100
+    #Atualizando uma nova coluna com a porcentagem de peças boas
+    df["Boas (%)"] = df['Peças boas'] / df['Total Previsto'] * 100
+
 #Imprime a tabela
 print("Tabela inicialmente implementada:\n")
 print(df)
 print("\n")
 
 #Criando uma nova coluna com a porcentagem de peças boas
-df["Boas (%)"] = df['Peças boas'] / df['Total Previsto'] * 100
+print("Criando uma nova coluna com a porcentagem de peças BOAS\n")
+df["Boas (%)"] = df['Com defeito'] / df['Total Previsto'] * 100
 print(df)
 print("\n")
 
 #Mudando o total previsto
 df['Total Previsto'] = 200
 
+atualiza(df)# chama atualiza
+
 #Criando uma nova coluna com a porcentagem de peças ruins
+print("Criando uma nova coluna com a porcentagem de peças RUINS\n")
 df["Ruins (%)"] = df['Com defeito'] / df['Total Previsto'] * 100
 print(df)
 print("\n")
